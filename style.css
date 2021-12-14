@@ -1,0 +1,35 @@
+table
+{
+   border-collapse: collapse; 
+}
+
+.heading
+{
+    background-color: black;
+    color: white; 
+}
+
+.first
+{
+    background-color: rgb(229, 241, 241);
+}
+
+.first:hover{
+    background-color: rgb(6, 222, 230);
+}
+
+.first2:hover {
+    background-color: rgb(112, 112, 218);
+}
+
+.first3:hover {
+    
+    background-color:royalblue;
+}
+
+.first6:hover{
+    background-color: darkgoldenrod;
+    text-align: center;
+    
+}
+

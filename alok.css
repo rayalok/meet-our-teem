@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Redacted+Script:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'poppins', sans-serif;
+    transition: 0.2s linear;
+}
+html
+{
+    font-size: 62.5%;
+}
+section
+{
+    padding: 5rem 9%;
+    background-color: #eee;
+}
+.team .box-container .box img 
+{
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 45%;
+
+}
+.heading
+{
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+
+}
+.team .box-container 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem,1fr));
+    gap: 4rem;
+}
+
+.team .box-container .box{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.team .box-container .box .infom h3
+{
+    font-size: 1.7rem;
+}
+.team .box-container .box .infom
+{
+    margin: 1rem 0;
+}
+.team .box-container .box .infom p
+{
+    margin-top: 0.5rem;
+    color: #235789;
+    font-size: 1.2rem;
+}
+.team .box-container .box:hover
+{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.team .box-container .box  .socials a i 
+{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    background-color: #eee;
+    line-height: 1.8;
+    color: #477890;
+    border-radius: 50%;
+}
+.team .box-container .box  .socials a i:hover
+{
+    background-color: #477890;
+    color: #fff;
+}
+
+
+
